@@ -15,11 +15,6 @@ env/
 .vscode/
 .idea/
 
-# Ignore generated outputs by default, but keep the figures used in README.md
-outputs/*
-!outputs/.gitkeep
-!outputs/training_history.png
-!outputs/actual_vs_predicted.png
 
 # Model and serialized files
 *.h5
