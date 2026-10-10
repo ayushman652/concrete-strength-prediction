@@ -45,8 +45,8 @@ The evaluation uses **206 held-out test samples**. These values are from a seede
 The training-history figure compares the loss on the training and validation sets. The prediction figure compares estimated strength with measured strength; points closer to the diagonal reference line represent more accurate predictions.
 
 <p align="center">
-  <img src="outputs/training_history.png" alt="Training and validation loss across epochs" width="48%" />
-  <img src="outputs/actual_vs_predicted.png" alt="Actual versus predicted concrete compressive strength" width="48%" />
+  <img src="outputs/Train_Val_loss.png" alt="Training and validation loss across epochs" width="48%" />
+  <img src="outputs/Actual_vs_Predicted.png" alt="Actual versus predicted concrete compressive strength" width="48%" />
 </p>
 
 <p align="center">
