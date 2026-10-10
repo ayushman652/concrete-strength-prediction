@@ -1,0 +1,36 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Ignore generated outputs by default, but keep the figures used in README.md
+outputs/*
+!outputs/.gitkeep
+!outputs/training_history.png
+!outputs/actual_vs_predicted.png
+
+# Model and serialized files
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
